@@ -21,6 +21,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'rspec', '~>3'
 
-  spec.add_dependency 'money', '~> 6.7.0'
+  spec.add_dependency 'money', '>= 6.7.0'
   spec.add_dependency 'savon', '~>2.0'
 end
